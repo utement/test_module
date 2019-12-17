@@ -1,0 +1,10 @@
+name: Test module
+description: Testing external module with drupal.
+package: Administration
+author: Uroš Tement
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:system (>=8.6)
